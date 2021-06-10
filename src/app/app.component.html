@@ -1,0 +1,18 @@
+<style>
+  div {
+    border: 4px solid black;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+  }
+</style>
+
+<div class="row">
+  <div class="col-md-6">
+    <p [cpToggle]="true" [cpCancelButton]="false" [(colorPicker)]="arrayColors[selectedColor]"></p>
+  </div>
+  <div class="col-md-6">
+    <p class="color-box" style="height:84vh; width:100%" [style.background]="arrayColors['color1']"
+      (click)="selectedColor='color1'"></p>
+  </div>
+</div>
