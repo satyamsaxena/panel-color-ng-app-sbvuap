@@ -1,7 +1,7 @@
 <style>
   div {
     border: 4px solid black;
-    height: 92vh;
+    height: 93vh;
     width: 100%;
     display: flex;
   }
@@ -9,11 +9,7 @@
 
 <div>
   <div class="col-md-6">
-    <p
-      [cpToggle]="true"
-      [cpCancelButton]="false"
-      [(colorPicker)]="arrayColors[selectedColor]"
-    ></p>
+    <p [cpToggle]="true" [(colorPicker)]="arrayColors[selectedColor]"></p>
   </div>
   <div class="col-md-6">
     <p
