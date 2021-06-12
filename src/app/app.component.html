@@ -7,12 +7,20 @@
   }
 </style>
 
-<div class="row">
+<div>
   <div class="col-md-6">
-    <p [cpToggle]="true" [cpCancelButton]="false" [(colorPicker)]="arrayColors[selectedColor]"></p>
+    <p
+      [cpToggle]="true"
+      [cpCancelButton]="false"
+      [(colorPicker)]="arrayColors[selectedColor]"
+    ></p>
   </div>
   <div class="col-md-6">
-    <p class="color-box" style="height:84vh; width:100%" [style.background]="arrayColors['color1']"
-      (click)="selectedColor='color1'"></p>
+    <p
+      class="color-box"
+      style="height:84vh; width:100%"
+      [style.background]="arrayColors['color1']"
+      (click)="selectedColor='color1'"
+    ></p>
   </div>
 </div>
