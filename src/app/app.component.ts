@@ -4,7 +4,6 @@ import { ColorPickerService, Cmyk } from 'ngx-color-picker';
 
 @Component({
   selector: 'my-app',
-  moduleId: 'src/app/app.component',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css']
 })
